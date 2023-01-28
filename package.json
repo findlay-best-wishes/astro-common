@@ -1,18 +1,33 @@
 {
   "name": "astro-common",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Injecting common css to any page in astro.",
   "main": "./dist/index.js",
   "type": "module",
   "scripts": {
-    "build": "rimraf ./dist & tsc"
+    "build": "rimraf ./dist & tsc",
+    "release": "semantic-release"
   },
-  "keywords": ["astro", "astro-integration", "astro-common", "scripts", "css", "styles", "inject", "common"],
+  "keywords": [
+    "astro",
+    "astro-integration",
+    "astro-common",
+    "scripts",
+    "css",
+    "styles",
+    "inject",
+    "common"
+  ],
   "author": "findlay-best-wishes",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.11.18",
     "astro": "^2.0.2",
-    "rimraf": "^4.1.2"
+    "rimraf": "^4.1.2",
+    "semantic-release": "^20.1.0"
+  },
+  "repository": "https://github.com/findlay-best-wishes/astro-common",
+  "release": {
+    "branches": ["main", "release"]
   }
 }
