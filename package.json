@@ -29,5 +29,8 @@
   "repository": "https://github.com/findlay-best-wishes/astro-common",
   "release": {
     "branches": ["main", "release"]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
