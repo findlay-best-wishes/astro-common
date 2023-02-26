@@ -21,6 +21,8 @@
   "author": "findlay-best-wishes",
   "license": "ISC",
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/git": "^10.0.1",
     "@types/node": "^18.11.18",
     "astro": "^2.0.2",
     "rimraf": "^4.1.2",
@@ -28,7 +30,26 @@
   },
   "repository": "https://github.com/findlay-best-wishes/astro-common",
   "release": {
-    "branches": ["main", "release"]
+    "branches": [
+      "main",
+      "release"
+    ],
+    "plugins": [
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "docs/CHANGELOG.md"
+        }
+      ],
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "docs/CHANGELOG.md"
+          ]
+        }
+      ]
+    ]
   },
   "publishConfig": {
     "access": "public"

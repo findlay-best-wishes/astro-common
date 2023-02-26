@@ -1,12 +1,16 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@semantic-release/changelog': ^6.0.2
+  '@semantic-release/git': ^10.0.1
   '@types/node': ^18.11.18
   astro: ^2.0.2
   rimraf: ^4.1.2
   semantic-release: ^20.1.0
 
 devDependencies:
+  '@semantic-release/changelog': registry.npmmirror.com/@semantic-release/changelog/6.0.2_semantic-release@20.1.0
+  '@semantic-release/git': registry.npmmirror.com/@semantic-release/git/10.0.1_semantic-release@20.1.0
   '@types/node': registry.npmmirror.com/@types/node/18.11.18
   astro: registry.npmmirror.com/astro/2.0.2_@types+node@18.11.18
   rimraf: registry.npmmirror.com/rimraf/4.1.2
@@ -932,6 +936,22 @@ packages:
       config-chain: registry.npmmirror.com/config-chain/1.1.13
     dev: true
 
+  registry.npmmirror.com/@semantic-release/changelog/6.0.2_semantic-release@20.1.0:
+    resolution: {integrity: sha512-jHqfTkoPbDEOAgAP18mGP53IxeMwxTISN+GwTRy9uLu58UjARoZU8ScCgWGeO2WPkEsm57H8AkyY02W2ntIlIw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@semantic-release/changelog/-/changelog-6.0.2.tgz}
+    id: registry.npmmirror.com/@semantic-release/changelog/6.0.2
+    name: '@semantic-release/changelog'
+    version: 6.0.2
+    engines: {node: '>=14.17'}
+    peerDependencies:
+      semantic-release: '>=18.0.0'
+    dependencies:
+      '@semantic-release/error': registry.npmmirror.com/@semantic-release/error/3.0.0
+      aggregate-error: registry.npmmirror.com/aggregate-error/3.1.0
+      fs-extra: registry.npmmirror.com/fs-extra/11.1.0
+      lodash: registry.npmmirror.com/lodash/4.17.21
+      semantic-release: registry.npmmirror.com/semantic-release/20.1.0
+    dev: true
+
   registry.npmmirror.com/@semantic-release/commit-analyzer/9.0.2_semantic-release@20.1.0:
     resolution: {integrity: sha512-E+dr6L+xIHZkX4zNMe6Rnwg4YQrWNXK+rNsvwOPpdFppvZO1olE2fIgWhv89TkQErygevbjsZFSIxp+u6w2e5g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@semantic-release/commit-analyzer/-/commit-analyzer-9.0.2.tgz}
     id: registry.npmmirror.com/@semantic-release/commit-analyzer/9.0.2
@@ -958,6 +978,28 @@ packages:
     name: '@semantic-release/error'
     version: 3.0.0
     engines: {node: '>=14.17'}
+    dev: true
+
+  registry.npmmirror.com/@semantic-release/git/10.0.1_semantic-release@20.1.0:
+    resolution: {integrity: sha512-eWrx5KguUcU2wUPaO6sfvZI0wPafUKAMNC18aXY4EnNcrZL86dEmpNVnC9uMpGZkmZJ9EfCVJBQx4pV4EMGT1w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@semantic-release/git/-/git-10.0.1.tgz}
+    id: registry.npmmirror.com/@semantic-release/git/10.0.1
+    name: '@semantic-release/git'
+    version: 10.0.1
+    engines: {node: '>=14.17'}
+    peerDependencies:
+      semantic-release: '>=18.0.0'
+    dependencies:
+      '@semantic-release/error': registry.npmmirror.com/@semantic-release/error/3.0.0
+      aggregate-error: registry.npmmirror.com/aggregate-error/3.1.0
+      debug: registry.npmmirror.com/debug/4.3.4
+      dir-glob: registry.npmmirror.com/dir-glob/3.0.1
+      execa: registry.npmmirror.com/execa/5.1.1
+      lodash: registry.npmmirror.com/lodash/4.17.21
+      micromatch: registry.npmmirror.com/micromatch/4.0.5
+      p-reduce: registry.npmmirror.com/p-reduce/2.1.0
+      semantic-release: registry.npmmirror.com/semantic-release/20.1.0
+    transitivePeerDependencies:
+      - supports-color
     dev: true
 
   registry.npmmirror.com/@semantic-release/github/8.0.7_semantic-release@20.1.0:
@@ -4224,6 +4266,13 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       aggregate-error: registry.npmmirror.com/aggregate-error/3.1.0
+    dev: true
+
+  registry.npmmirror.com/p-reduce/2.1.0:
+    resolution: {integrity: sha512-2USApvnsutq8uoxZBGbbWM0JIYLiEMJ9RlaN7fAzVNb9OZN0SHjjTTfIcb667XynS5Y1VhwDJVDa72TnPzAYWw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/p-reduce/-/p-reduce-2.1.0.tgz}
+    name: p-reduce
+    version: 2.1.0
+    engines: {node: '>=8'}
     dev: true
 
   registry.npmmirror.com/p-reduce/3.0.0:
